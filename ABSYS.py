@@ -3,7 +3,7 @@
 #and you have ur answer
 for i in range(int(input())):
     t=input()
-    t1,op1,t2,op2,res=input().split()
+    t1 ,op1 ,t2 ,op2 ,res=input().split()
     if('machula' in t1):
         print(int(res)-int(t2),op1,t2,op2,res)
     elif('machula' in t2):
